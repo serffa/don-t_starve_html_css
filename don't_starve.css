@@ -1,0 +1,1508 @@
+
+
+.Accueil{
+
+    
+    margin: 0;
+    min-height: 100vh; 
+    
+    
+
+    #bg-video {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+    }
+    
+    
+
+    
+
+    .barre_haut{
+        display: flex;
+        justify-content: space-between;
+        padding: 30px;
+    
+
+        #titre_head{
+            color: white;
+            font-family: 'Belisa plumilla manual', sans-serif;
+            font-size: 100px;
+    }}
+
+    .presentation{
+        display: flex;
+
+        .pres{
+
+            width: 450px;
+            height: 360px;
+            margin: 30px;
+            background: rgba(255, 255, 255, 0.1);
+            backdrop-filter: blur(8px);
+            border: 1px solid rgba(255, 255, 255, 0.3);
+            color: white;
+            padding: 15px 20px;
+            border-radius: 20px;
+            overflow-y: auto;
+            font-family: 'Belisa plumilla manual', sans-serif;
+            font-size: 21px;
+            
+        }
+
+        .pres:hover{
+            transform: scale(1.05);
+            box-shadow: 0 0 20px rgba(255, 255, 255, 0.8);
+            
+        }
+
+        .actu{
+            width: 900px;
+            height: 360px;
+            margin: 30px;
+            background: rgba(255, 255, 255, 0.1);
+            backdrop-filter: blur(8px);
+            border: 1px solid rgba(255, 255, 255, 0.3);
+            color: white;
+            padding: 15px 20px;
+            border-radius: 20px;
+            overflow-y: auto;
+            font-family: 'Belisa plumilla manual', sans-serif;
+            font-size: 21px;
+            
+        }
+        .actu:hover{
+            transform: scale(1.05);
+            box-shadow: 0 0 20px rgba(255, 255, 255, 0.8);
+            
+        }
+    }
+    .dlc{
+        
+        
+        width: 1420px;
+        height: 360px;
+        margin: 30px;
+        background: rgba(255, 255, 255, 0.1);
+        backdrop-filter: blur(8px);
+        border: 1px solid rgba(255, 255, 255, 0.3);
+        color: white;
+        padding: 15px 20px;
+        border-radius: 20px;
+        overflow-y: auto;
+
+        #titre_dlc{
+            display: flex;
+            font-family: 'Belisa plumilla manual', sans-serif;
+            font-size: 40px;
+            justify-content: center;
+        }
+        .logos_dlc{
+            display: flex;
+            justify-content: space-around;
+        }
+        #ds_logo_p:hover{
+            transform: scale(1.05);
+            box-shadow: 0 0 20px rgba(255, 255, 255, 0.8);
+            
+        }
+        #dsg_logo_p:hover{
+            transform: scale(1.05);
+            box-shadow: 0 0 20px rgba(255, 255, 255, 0.8);
+            
+        }
+        #dss_logo_p:hover{
+            transform: scale(1.05);
+            box-shadow: 0 0 20px rgba(255, 255, 255, 0.8);
+            
+        }
+        #dsh_logo_p:hover{
+            transform: scale(1.05);
+            box-shadow: 0 0 20px rgba(255, 255, 255, 0.8);
+            
+        }
+        #dst_logo_p:hover{
+            transform: scale(1.05);
+            box-shadow: 0 0 20px rgba(255, 255, 255, 0.8);
+            
+        }
+        
+    }
+    .wiki_perso{
+        display: flex;
+        justify-content: space-around;
+    }
+    .wiki{
+        display: flex;
+        justify-content: space-around;
+        width: 230px;
+        height: 200px;
+        margin: 30px;
+        background: rgba(255, 255, 255, 0.1);
+        backdrop-filter: blur(8px);
+        border: 1px solid rgba(255, 255, 255, 0.3);
+        color: white;
+        padding: 15px 20px;
+        border-radius: 20px;
+        overflow-y: auto;
+        font-family: 'Belisa plumilla manual', sans-serif;
+        font-size: 22px;
+
+    }
+    .wiki:hover{
+            transform: scale(1.05);
+            box-shadow: 0 0 20px rgba(255, 255, 255, 0.8);
+            
+        }
+    .perso{
+        display: flex;
+        justify-content: space-between;
+        width: 1000px;
+        height: 200px;
+        margin: 30px;
+        background: rgba(255, 255, 255, 0.1);
+        backdrop-filter: blur(8px);
+        border: 1px solid rgba(255, 255, 255, 0.3);
+        color: white;
+        padding: 15px 20px;
+        border-radius: 20px;
+        overflow-y: auto;
+        font-family: 'Belisa plumilla manual', sans-serif;
+        font-size: 20px;
+
+        
+
+    }
+    #perso_link:hover{
+            transform: scale(1.05);
+            box-shadow: 0 0 20px rgba(255, 255, 255, 0.8);
+            
+        }
+    .reseau_s{
+        display: flex;
+        justify-content: space-around;
+
+        width: 1420px;
+        height: 125px;
+        margin: 30px;
+        background: rgba(255, 255, 255, 0.1);
+        backdrop-filter: blur(8px);
+        border: 1px solid rgba(255, 255, 255, 0.3);
+        color: white;
+        padding: 15px 20px;
+        border-radius: 20px;
+        overflow-y: auto;
+        font-family: 'Belisa plumilla manual', sans-serif;
+        font-size: 22px;
+    }
+
+    .reseau_s a:hover{
+            transform: scale(1.05);
+            
+        }
+}
+
+.Giant{
+
+    
+    margin: 0;
+    min-height: 100vh; 
+    
+    
+
+    #bg-video {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+    }
+    
+    
+    
+
+    
+
+    .barre_haut{
+        display: flex;
+        justify-content: space-between;
+        padding: 30px;
+    
+
+        #titre_head{
+            color: white;
+            font-family: 'Belisa plumilla manual', sans-serif;
+            font-size: 100px;
+    }}
+
+    .presentation{
+        display: flex;
+
+        .pres{
+
+            width: 450px;
+            height: 360px;
+            margin: 30px;
+            background: rgba(255, 255, 255, 0.1);
+            backdrop-filter: blur(8px);
+            border: 1px solid rgba(255, 255, 255, 0.3);
+            color: white;
+            padding: 15px 20px;
+            border-radius: 20px;
+            overflow-y: auto;
+            font-family: 'Belisa plumilla manual', sans-serif;
+            font-size: 21px;
+            
+        }
+
+        .pres:hover{
+            transform: scale(1.05);
+            box-shadow: 0 0 20px rgba(255, 255, 255, 0.8);
+            
+        }
+
+        .actu{
+            width: 900px;
+            height: 360px;
+            margin: 30px;
+            background: rgba(255, 255, 255, 0.1);
+            backdrop-filter: blur(8px);
+            border: 1px solid rgba(255, 255, 255, 0.3);
+            color: white;
+            padding: 15px 20px;
+            border-radius: 20px;
+            overflow-y: auto;
+            font-family: 'Belisa plumilla manual', sans-serif;
+            font-size: 21px;
+            ul {margin-bottom: 25px;}
+
+            
+        }
+        .actu:hover{
+            transform: scale(1.05);
+            box-shadow: 0 0 20px rgba(255, 255, 255, 0.8);
+            
+        }
+    }
+    .dlc{
+        
+        
+        width: 1420px;
+        height: 360px;
+        margin: 30px;
+        background: rgba(255, 255, 255, 0.1);
+        backdrop-filter: blur(8px);
+        border: 1px solid rgba(255, 255, 255, 0.3);
+        color: white;
+        padding: 15px 20px;
+        border-radius: 20px;
+        overflow-y: auto;
+
+        #titre_dlc{
+            display: flex;
+            font-family: 'Belisa plumilla manual', sans-serif;
+            font-size: 40px;
+            justify-content: center;
+        }
+        .logos_dlc{
+            display: flex;
+            justify-content: space-around;
+        }
+        #ds_logo_p:hover{
+            transform: scale(1.05);
+            box-shadow: 0 0 20px rgba(255, 255, 255, 0.8);
+            
+        }
+        #dsg_logo_p:hover{
+            transform: scale(1.05);
+            box-shadow: 0 0 20px rgba(255, 255, 255, 0.8);
+            
+        }
+        #dss_logo_p:hover{
+            transform: scale(1.05);
+            box-shadow: 0 0 20px rgba(255, 255, 255, 0.8);
+            
+        }
+        #dsh_logo_p:hover{
+            transform: scale(1.05);
+            box-shadow: 0 0 20px rgba(255, 255, 255, 0.8);
+            
+        }
+        #dst_logo_p:hover{
+            transform: scale(1.05);
+            box-shadow: 0 0 20px rgba(255, 255, 255, 0.8);
+            
+        }
+        
+    }
+    .wiki_steam{
+        display: flex;
+        justify-content: space-around;
+    }
+    .wiki{
+        display: flex;
+        justify-content: space-around;
+        width: 230px;
+        height: 200px;
+        margin: 30px;
+        background: rgba(255, 255, 255, 0.1);
+        backdrop-filter: blur(8px);
+        border: 1px solid rgba(255, 255, 255, 0.3);
+        color: white;
+        padding: 15px 20px;
+        border-radius: 20px;
+        overflow-y: auto;
+        font-family: 'Belisa plumilla manual', sans-serif;
+        font-size: 22px;
+
+    }
+    .wiki:hover{
+            transform: scale(1.05);
+            box-shadow: 0 0 20px rgba(255, 255, 255, 0.8);
+            
+        }
+    .steam{
+        display: flex;
+        justify-content: space-between;
+        width: 1000px;
+        height: 200px;
+        margin: 30px;
+        background: rgba(255, 255, 255, 0.1);
+        backdrop-filter: blur(8px);
+        border: 1px solid rgba(255, 255, 255, 0.3);
+        color: white;
+        padding: 15px 20px;
+        border-radius: 20px;
+        overflow-y: auto;
+        font-family: 'Belisa plumilla manual', sans-serif;
+        font-size: 20px;
+
+        
+
+    }
+    .steam:hover{
+            transform: scale(1.05);
+            box-shadow: 0 0 20px rgba(255, 255, 255, 0.8);
+            
+        }
+    .reseau_s{
+        display: flex;
+        justify-content: space-around;
+
+        width: 1420px;
+        height: 125px;
+        margin: 30px;
+        background: rgba(255, 255, 255, 0.1);
+        backdrop-filter: blur(8px);
+        border: 1px solid rgba(255, 255, 255, 0.3);
+        color: white;
+        padding: 15px 20px;
+        border-radius: 20px;
+        overflow-y: auto;
+        font-family: 'Belisa plumilla manual', sans-serif;
+        font-size: 22px;
+    }
+    .reseau_s a:hover{
+            transform: scale(1.05);
+            
+        }
+}
+
+.Hamlet{
+
+    
+    margin: 0;
+    min-height: 100vh; 
+    
+    
+
+    background-image: url("image/hamlet_back.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    
+    
+    
+
+    
+
+    .barre_haut{
+        display: flex;
+        justify-content: space-between;
+        padding: 30px;
+    
+
+        #titre_head{
+            color: white;
+            font-family: 'Belisa plumilla manual', sans-serif;
+            font-size: 100px;
+    }}
+
+    .presentation{
+        display: flex;
+
+        .pres{
+
+            width: 450px;
+            height: 360px;
+            margin: 30px;
+            background: rgba(255, 255, 255, 0.1);
+            backdrop-filter: blur(8px);
+            border: 1px solid rgba(255, 255, 255, 0.3);
+            color: white;
+            padding: 15px 20px;
+            border-radius: 20px;
+            overflow-y: auto;
+            font-family: 'Belisa plumilla manual', sans-serif;
+            font-size: 27px;
+            
+        }
+
+        .pres:hover{
+            transform: scale(1.05);
+            box-shadow: 0 0 20px rgba(255, 255, 255, 0.8);
+            
+        }
+
+        .actu{
+            width: 900px;
+            height: 360px;
+            margin: 30px;
+            background: rgba(255, 255, 255, 0.1);
+            backdrop-filter: blur(8px);
+            border: 1px solid rgba(255, 255, 255, 0.3);
+            color: white;
+            padding: 15px 20px;
+            border-radius: 20px;
+            overflow-y: auto;
+            font-family: 'Belisa plumilla manual', sans-serif;
+            font-size: 23px;
+            ul {margin-bottom: 20px;}
+            
+        }
+        .actu:hover{
+            transform: scale(1.05);
+            box-shadow: 0 0 20px rgba(255, 255, 255, 0.8);
+            
+        }
+    }
+    .dlc{
+        
+        
+        width: 1420px;
+        height: 360px;
+        margin: 30px;
+        background: rgba(255, 255, 255, 0.1);
+        backdrop-filter: blur(8px);
+        border: 1px solid rgba(255, 255, 255, 0.3);
+        color: white;
+        padding: 15px 20px;
+        border-radius: 20px;
+        overflow-y: auto;
+
+        #titre_dlc{
+            display: flex;
+            font-family: 'Belisa plumilla manual', sans-serif;
+            font-size: 40px;
+            justify-content: center;
+        }
+        .logos_dlc{
+            display: flex;
+            justify-content: space-around;
+        }
+        #ds_logo_p:hover{
+            transform: scale(1.05);
+            box-shadow: 0 0 20px rgba(255, 255, 255, 0.8);
+            
+        }
+        #dsg_logo_p:hover{
+            transform: scale(1.05);
+            box-shadow: 0 0 20px rgba(255, 255, 255, 0.8);
+            
+        }
+        #dss_logo_p:hover{
+            transform: scale(1.05);
+            box-shadow: 0 0 20px rgba(255, 255, 255, 0.8);
+            
+        }
+        #dsh_logo_p:hover{
+            transform: scale(1.05);
+            box-shadow: 0 0 20px rgba(255, 255, 255, 0.8);
+            
+        }
+        #dst_logo_p:hover{
+            transform: scale(1.05);
+            box-shadow: 0 0 20px rgba(255, 255, 255, 0.8);
+            
+        }
+        
+    }
+    .wiki_steam{
+        display: flex;
+        justify-content: space-around;
+    }
+    .wiki{
+        display: flex;
+        justify-content: space-around;
+        width: 230px;
+        height: 200px;
+        margin: 30px;
+        background: rgba(255, 255, 255, 0.1);
+        backdrop-filter: blur(8px);
+        border: 1px solid rgba(255, 255, 255, 0.3);
+        color: white;
+        padding: 15px 20px;
+        border-radius: 20px;
+        overflow-y: auto;
+        font-family: 'Belisa plumilla manual', sans-serif;
+        font-size: 22px;
+
+    }
+    .wiki:hover{
+            transform: scale(1.05);
+            box-shadow: 0 0 20px rgba(255, 255, 255, 0.8);
+            
+        }
+    .steam{
+        display: flex;
+        justify-content: space-between;
+        width: 1000px;
+        height: 200px;
+        margin: 30px;
+        background: rgba(255, 255, 255, 0.1);
+        backdrop-filter: blur(8px);
+        border: 1px solid rgba(255, 255, 255, 0.3);
+        color: white;
+        padding: 15px 20px;
+        border-radius: 20px;
+        overflow-y: auto;
+        font-family: 'Belisa plumilla manual', sans-serif;
+        font-size: 20px;
+
+        
+
+    }
+    .steam:hover{
+            transform: scale(1.05);
+            box-shadow: 0 0 20px rgba(255, 255, 255, 0.8);
+            
+        }
+    .reseau_s{
+        display: flex;
+        justify-content: space-around;
+
+        width: 1420px;
+        height: 125px;
+        margin: 30px;
+        background: rgba(255, 255, 255, 0.1);
+        backdrop-filter: blur(8px);
+        border: 1px solid rgba(255, 255, 255, 0.3);
+        color: white;
+        padding: 15px 20px;
+        border-radius: 20px;
+        overflow-y: auto;
+        font-family: 'Belisa plumilla manual', sans-serif;
+        font-size: 22px;
+    }
+    .reseau_s a:hover{
+            transform: scale(1.05);
+            
+        }
+}
+
+.shipwrecked{
+
+    
+    margin: 0;
+    min-height: 100vh; 
+    
+    
+
+    #bg-video {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+    }
+    
+    
+    
+    
+
+    
+
+    .barre_haut{
+        display: flex;
+        justify-content: space-between;
+        padding: 30px;
+    
+
+        #titre_head{
+            color: white;
+            font-family: 'Belisa plumilla manual', sans-serif;
+            font-size: 100px;
+    }}
+
+    .presentation{
+        display: flex;
+
+        .pres{
+
+            width: 450px;
+            height: 360px;
+            margin: 30px;
+            background: rgba(255, 255, 255, 0.1);
+            backdrop-filter: blur(8px);
+            border: 1px solid rgba(255, 255, 255, 0.3);
+            color: white;
+            padding: 15px 20px;
+            border-radius: 20px;
+            overflow-y: auto;
+            font-family: 'Belisa plumilla manual', sans-serif;
+            font-size: 24px;
+            
+        }
+
+        .pres:hover{
+            transform: scale(1.05);
+            box-shadow: 0 0 20px rgba(255, 255, 255, 0.8);
+            
+        }
+
+        .actu{
+            width: 900px;
+            height: 360px;
+            margin: 30px;
+            background: rgba(255, 255, 255, 0.1);
+            backdrop-filter: blur(8px);
+            border: 1px solid rgba(255, 255, 255, 0.3);
+            color: white;
+            padding: 15px 20px;
+            border-radius: 20px;
+            overflow-y: auto;
+            font-family: 'Belisa plumilla manual', sans-serif;
+            font-size: 27px;
+            ul {margin-bottom: 20px;}
+            
+        }
+        .actu:hover{
+            transform: scale(1.05);
+            box-shadow: 0 0 20px rgba(255, 255, 255, 0.8);
+            
+        }
+    }
+    .dlc{
+        
+        
+        width: 1420px;
+        height: 360px;
+        margin: 30px;
+        background: rgba(255, 255, 255, 0.1);
+        backdrop-filter: blur(8px);
+        border: 1px solid rgba(255, 255, 255, 0.3);
+        color: white;
+        padding: 15px 20px;
+        border-radius: 20px;
+        overflow-y: auto;
+
+        #titre_dlc{
+            display: flex;
+            font-family: 'Belisa plumilla manual', sans-serif;
+            font-size: 40px;
+            justify-content: center;
+        }
+        .logos_dlc{
+            display: flex;
+            justify-content: space-around;
+        }
+        #ds_logo_p:hover{
+            transform: scale(1.05);
+            box-shadow: 0 0 20px rgba(255, 255, 255, 0.8);
+            
+        }
+        #dsg_logo_p:hover{
+            transform: scale(1.05);
+            box-shadow: 0 0 20px rgba(255, 255, 255, 0.8);
+            
+        }
+        #dss_logo_p:hover{
+            transform: scale(1.05);
+            box-shadow: 0 0 20px rgba(255, 255, 255, 0.8);
+            
+        }
+        #dsh_logo_p:hover{
+            transform: scale(1.05);
+            box-shadow: 0 0 20px rgba(255, 255, 255, 0.8);
+            
+        }
+        #dst_logo_p:hover{
+            transform: scale(1.05);
+            box-shadow: 0 0 20px rgba(255, 255, 255, 0.8);
+            
+        }
+        
+    }
+    .wiki_steam{
+        display: flex;
+        justify-content: space-around;
+    }
+    .wiki{
+        display: flex;
+        justify-content: space-around;
+        width: 230px;
+        height: 200px;
+        margin: 30px;
+        background: rgba(255, 255, 255, 0.1);
+        backdrop-filter: blur(8px);
+        border: 1px solid rgba(255, 255, 255, 0.3);
+        color: white;
+        padding: 15px 20px;
+        border-radius: 20px;
+        overflow-y: auto;
+        font-family: 'Belisa plumilla manual', sans-serif;
+        font-size: 22px;
+
+    }
+    .wiki:hover{
+            transform: scale(1.05);
+            box-shadow: 0 0 20px rgba(255, 255, 255, 0.8);
+            
+        }
+    .steam{
+        display: flex;
+        justify-content: space-between;
+        width: 1000px;
+        height: 200px;
+        margin: 30px;
+        background: rgba(255, 255, 255, 0.1);
+        backdrop-filter: blur(8px);
+        border: 1px solid rgba(255, 255, 255, 0.3);
+        color: white;
+        padding: 15px 20px;
+        border-radius: 20px;
+        overflow-y: auto;
+        font-family: 'Belisa plumilla manual', sans-serif;
+        font-size: 20px;
+
+        
+
+    }
+    .steam:hover{
+            transform: scale(1.05);
+            box-shadow: 0 0 20px rgba(255, 255, 255, 0.8);
+            
+        }
+    .reseau_s{
+        display: flex;
+        justify-content: space-around;
+
+        width: 1420px;
+        height: 125px;
+        margin: 30px;
+        background: rgba(255, 255, 255, 0.1);
+        backdrop-filter: blur(8px);
+        border: 1px solid rgba(255, 255, 255, 0.3);
+        color: white;
+        padding: 15px 20px;
+        border-radius: 20px;
+        overflow-y: auto;
+        font-family: 'Belisa plumilla manual', sans-serif;
+        font-size: 22px;
+    }
+    .reseau_s a:hover{
+            transform: scale(1.05);
+            
+        }
+}
+
+.Together{
+
+    
+    margin: 0;
+    min-height: 100vh; 
+    
+    
+
+    background-image: url("image/dst_back_final.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    
+    
+    
+
+    
+
+    .barre_haut{
+        display: flex;
+        justify-content: space-between;
+        padding: 30px;
+    
+
+        #titre_head{
+            color: white;
+            font-family: 'Belisa plumilla manual', sans-serif;
+            font-size: 100px;
+    }}
+
+    .presentation{
+        display: flex;
+
+        .pres{
+
+            width: 450px;
+            height: 360px;
+            margin: 30px;
+            background: rgba(255, 255, 255, 0.1);
+            backdrop-filter: blur(8px);
+            border: 1px solid rgba(255, 255, 255, 0.3);
+            color: white;
+            padding: 15px 20px;
+            border-radius: 20px;
+            overflow-y: auto;
+            font-family: 'Belisa plumilla manual', sans-serif;
+            font-size: 24px;
+            
+        }
+
+        .pres:hover{
+            transform: scale(1.05);
+            box-shadow: 0 0 20px rgba(255, 255, 255, 0.8);
+            
+        }
+
+        .actu{
+            width: 900px;
+            height: 360px;
+            margin: 30px;
+            background: rgba(255, 255, 255, 0.1);
+            backdrop-filter: blur(8px);
+            border: 1px solid rgba(255, 255, 255, 0.3);
+            color: white;
+            padding: 15px 20px;
+            border-radius: 20px;
+            overflow-y: auto;
+            font-family: 'Belisa plumilla manual', sans-serif;
+            font-size: 21px;
+            ul{ margin-bottom: 17px;}
+            
+        }
+        .actu:hover{
+            transform: scale(1.05);
+            box-shadow: 0 0 20px rgba(255, 255, 255, 0.8);
+            
+        }
+    }
+    .dlc{
+        
+        
+        width: 1420px;
+        height: 360px;
+        margin: 30px;
+        background: rgba(255, 255, 255, 0.1);
+        backdrop-filter: blur(8px);
+        border: 1px solid rgba(255, 255, 255, 0.3);
+        color: white;
+        padding: 15px 20px;
+        border-radius: 20px;
+        overflow-y: auto;
+
+        #titre_dlc{
+            display: flex;
+            font-family: 'Belisa plumilla manual', sans-serif;
+            font-size: 40px;
+            justify-content: center;
+        }
+        .logos_dlc{
+            display: flex;
+            justify-content: space-around;
+        }
+        #ds_logo_p:hover{
+            transform: scale(1.05);
+            box-shadow: 0 0 20px rgba(255, 255, 255, 0.8);
+            
+        }
+        #dsg_logo_p:hover{
+            transform: scale(1.05);
+            box-shadow: 0 0 20px rgba(255, 255, 255, 0.8);
+            
+        }
+        #dss_logo_p:hover{
+            transform: scale(1.05);
+            box-shadow: 0 0 20px rgba(255, 255, 255, 0.8);
+            
+        }
+        #dsh_logo_p:hover{
+            transform: scale(1.05);
+            box-shadow: 0 0 20px rgba(255, 255, 255, 0.8);
+            
+        }
+        #dst_logo_p:hover{
+            transform: scale(1.05);
+            box-shadow: 0 0 20px rgba(255, 255, 255, 0.8);
+            
+        }
+        
+    }
+    .wiki_steam{
+        display: flex;
+        justify-content: space-around;
+    }
+    .wiki{
+        display: flex;
+        justify-content: space-around;
+        width: 230px;
+        height: 200px;
+        margin: 30px;
+        background: rgba(255, 255, 255, 0.1);
+        backdrop-filter: blur(8px);
+        border: 1px solid rgba(255, 255, 255, 0.3);
+        color: white;
+        padding: 15px 20px;
+        border-radius: 20px;
+        overflow-y: auto;
+        font-family: 'Belisa plumilla manual', sans-serif;
+        font-size: 22px;
+
+    }
+    .wiki:hover{
+            transform: scale(1.05);
+            box-shadow: 0 0 20px rgba(255, 255, 255, 0.8);
+            
+        }
+    .steam{
+        display: flex;
+        justify-content: space-between;
+        width: 1000px;
+        height: 200px;
+        margin: 30px;
+        background: rgba(255, 255, 255, 0.1);
+        backdrop-filter: blur(8px);
+        border: 1px solid rgba(255, 255, 255, 0.3);
+        color: white;
+        padding: 15px 20px;
+        border-radius: 20px;
+        overflow-y: auto;
+        font-family: 'Belisa plumilla manual', sans-serif;
+        font-size: 20px;
+
+        
+
+    }
+    .steam:hover{
+            transform: scale(1.05);
+            box-shadow: 0 0 20px rgba(255, 255, 255, 0.8);
+            
+        }
+    .reseau_s{
+        display: flex;
+        justify-content: space-around;
+
+        width: 1420px;
+        height: 125px;
+        margin: 30px;
+        background: rgba(255, 255, 255, 0.1);
+        backdrop-filter: blur(8px);
+        border: 1px solid rgba(255, 255, 255, 0.3);
+        color: white;
+        padding: 15px 20px;
+        border-radius: 20px;
+        overflow-y: auto;
+        font-family: 'Belisa plumilla manual', sans-serif;
+        font-size: 22px;
+    }
+    .reseau_s a:hover{
+            transform: scale(1.05);
+            
+        }
+}
+
+.Personnages{
+
+    
+    margin: 0;
+    min-height: 100vh; 
+    
+    
+
+    background-image: url("image/fond_perso.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    
+    
+    
+
+    
+
+    .barre_haut{
+        display: flex;
+        justify-content: space-between;
+        padding: 30px;
+    
+
+        #titre_head{
+            color: white;
+            font-family: 'Belisa plumilla manual', sans-serif;
+            font-size: 100px;
+    }}
+
+    .personnages_info{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+
+        .wilson{
+            display: flex;
+            justify-content: space-between;
+            width: 1000px;
+            height: 200px;
+            margin: 30px;
+            background: rgba(255, 255, 255, 0.1);
+            backdrop-filter: blur(8px);
+            border: 1px solid rgba(255, 255, 255, 0.3);
+            color: white;
+            padding: 15px 20px;
+            border-radius: 20px;
+            overflow-y: auto;
+            font-family: 'Belisa plumilla manual', sans-serif;
+            font-size: 30px;
+
+            
+
+        }
+        .willow{
+            display: flex;
+            justify-content: space-between;
+            width: 1000px;
+            height: 200px;
+            margin: 30px;
+            background: rgba(255, 255, 255, 0.1);
+            backdrop-filter: blur(8px);
+            border: 1px solid rgba(255, 255, 255, 0.3);
+            color: white;
+            padding: 15px 20px;
+            border-radius: 20px;
+            overflow-y: auto;
+            font-family: 'Belisa plumilla manual', sans-serif;
+            font-size: 30px;
+
+            
+
+        }
+        .wolfgang{
+            display: flex;
+            justify-content: space-between;
+            width: 1000px;
+            height: 200px;
+            margin: 30px;
+            background: rgba(255, 255, 255, 0.1);
+            backdrop-filter: blur(8px);
+            border: 1px solid rgba(255, 255, 255, 0.3);
+            color: white;
+            padding: 15px 20px;
+            border-radius: 20px;
+            overflow-y: auto;
+            font-family: 'Belisa plumilla manual', sans-serif;
+            font-size: 30px;
+
+            
+
+        }
+        .wendy{
+            display: flex;
+            justify-content: space-between;
+            width: 1000px;
+            height: 200px;
+            margin: 30px;
+            background: rgba(255, 255, 255, 0.1);
+            backdrop-filter: blur(8px);
+            border: 1px solid rgba(255, 255, 255, 0.3);
+            color: white;
+            padding: 15px 20px;
+            border-radius: 20px;
+            overflow-y: auto;
+            font-family: 'Belisa plumilla manual', sans-serif;
+            font-size: 30px;
+
+            
+
+        }
+        .wx-78{
+            display: flex;
+            justify-content: space-between;
+            width: 1000px;
+            height: 200px;
+            margin: 30px;
+            background: rgba(255, 255, 255, 0.1);
+            backdrop-filter: blur(8px);
+            border: 1px solid rgba(255, 255, 255, 0.3);
+            color: white;
+            padding: 15px 20px;
+            border-radius: 20px;
+            overflow-y: auto;
+            font-family: 'Belisa plumilla manual', sans-serif;
+            font-size: 30px;
+
+            
+
+        }
+        .wickerbottom{
+            display: flex;
+            justify-content: space-between;
+            width: 1000px;
+            height: 200px;
+            margin: 30px;
+            background: rgba(255, 255, 255, 0.1);
+            backdrop-filter: blur(8px);
+            border: 1px solid rgba(255, 255, 255, 0.3);
+            color: white;
+            padding: 15px 20px;
+            border-radius: 20px;
+            overflow-y: auto;
+            font-family: 'Belisa plumilla manual', sans-serif;
+            font-size: 30px;
+
+            
+
+        }
+        .woodie{
+            display: flex;
+            justify-content: space-between;
+            width: 1000px;
+            height: 200px;
+            margin: 30px;
+            background: rgba(255, 255, 255, 0.1);
+            backdrop-filter: blur(8px);
+            border: 1px solid rgba(255, 255, 255, 0.3);
+            color: white;
+            padding: 15px 20px;
+            border-radius: 20px;
+            overflow-y: auto;
+            font-family: 'Belisa plumilla manual', sans-serif;
+            font-size: 30px;
+
+            
+
+        }
+        .wes{
+            display: flex;
+            justify-content: space-between;
+            width: 1000px;
+            height: 200px;
+            margin: 30px;
+            background: rgba(255, 255, 255, 0.1);
+            backdrop-filter: blur(8px);
+            border: 1px solid rgba(255, 255, 255, 0.3);
+            color: white;
+            padding: 15px 20px;
+            border-radius: 20px;
+            overflow-y: auto;
+            font-family: 'Belisa plumilla manual', sans-serif;
+            font-size: 30px;
+
+            
+
+        }
+        .maxwell{
+            display: flex;
+            justify-content: space-between;
+            width: 1000px;
+            height: 200px;
+            margin: 30px;
+            background: rgba(255, 255, 255, 0.1);
+            backdrop-filter: blur(8px);
+            border: 1px solid rgba(255, 255, 255, 0.3);
+            color: white;
+            padding: 15px 20px;
+            border-radius: 20px;
+            overflow-y: auto;
+            font-family: 'Belisa plumilla manual', sans-serif;
+            font-size: 30px;
+
+            
+
+        }
+        .wigfrid{
+            display: flex;
+            justify-content: space-between;
+            width: 1000px;
+            height: 200px;
+            margin: 30px;
+            background: rgba(255, 255, 255, 0.1);
+            backdrop-filter: blur(8px);
+            border: 1px solid rgba(255, 255, 255, 0.3);
+            color: white;
+            padding: 15px 20px;
+            border-radius: 20px;
+            overflow-y: auto;
+            font-family: 'Belisa plumilla manual', sans-serif;
+            font-size: 30px;
+
+            
+
+        }
+        .webber{
+            display: flex;
+            justify-content: space-between;
+            width: 1000px;
+            height: 200px;
+            margin: 30px;
+            background: rgba(255, 255, 255, 0.1);
+            backdrop-filter: blur(8px);
+            border: 1px solid rgba(255, 255, 255, 0.3);
+            color: white;
+            padding: 15px 20px;
+            border-radius: 20px;
+            overflow-y: auto;
+            font-family: 'Belisa plumilla manual', sans-serif;
+            font-size: 30px;
+
+            
+
+        }
+        .walani{
+            display: flex;
+            justify-content: space-between;
+            width: 1000px;
+            height: 200px;
+            margin: 30px;
+            background: rgba(255, 255, 255, 0.1);
+            backdrop-filter: blur(8px);
+            border: 1px solid rgba(255, 255, 255, 0.3);
+            color: white;
+            padding: 15px 20px;
+            border-radius: 20px;
+            overflow-y: auto;
+            font-family: 'Belisa plumilla manual', sans-serif;
+            font-size: 30px;
+
+            
+
+        }
+        .warly{
+            display: flex;
+            justify-content: space-between;
+            width: 1000px;
+            height: 200px;
+            margin: 30px;
+            background: rgba(255, 255, 255, 0.1);
+            backdrop-filter: blur(8px);
+            border: 1px solid rgba(255, 255, 255, 0.3);
+            color: white;
+            padding: 15px 20px;
+            border-radius: 20px;
+            overflow-y: auto;
+            font-family: 'Belisa plumilla manual', sans-serif;
+            font-size: 30px;
+
+            
+
+        }
+        .wilbur{
+            display: flex;
+            justify-content: space-between;
+            width: 1000px;
+            height: 200px;
+            margin: 30px;
+            background: rgba(255, 255, 255, 0.1);
+            backdrop-filter: blur(8px);
+            border: 1px solid rgba(255, 255, 255, 0.3);
+            color: white;
+            padding: 15px 20px;
+            border-radius: 20px;
+            overflow-y: auto;
+            font-family: 'Belisa plumilla manual', sans-serif;
+            font-size: 30px;
+
+            
+
+        }
+        .woodlegs{
+            display: flex;
+            justify-content: space-between;
+            width: 1000px;
+            height: 200px;
+            margin: 30px;
+            background: rgba(255, 255, 255, 0.1);
+            backdrop-filter: blur(8px);
+            border: 1px solid rgba(255, 255, 255, 0.3);
+            color: white;
+            padding: 15px 20px;
+            border-radius: 20px;
+            overflow-y: auto;
+            font-family: 'Belisa plumilla manual', sans-serif;
+            font-size: 30px;
+
+            
+
+        }
+        .wilba{
+            display: flex;
+            justify-content: space-between;
+            width: 1000px;
+            height: 200px;
+            margin: 30px;
+            background: rgba(255, 255, 255, 0.1);
+            backdrop-filter: blur(8px);
+            border: 1px solid rgba(255, 255, 255, 0.3);
+            color: white;
+            padding: 15px 20px;
+            border-radius: 20px;
+            overflow-y: auto;
+            font-family: 'Belisa plumilla manual', sans-serif;
+            font-size: 30px;
+
+            
+
+        }
+        .wormwood{
+            display: flex;
+            justify-content: space-between;
+            width: 1000px;
+            height: 200px;
+            margin: 30px;
+            background: rgba(255, 255, 255, 0.1);
+            backdrop-filter: blur(8px);
+            border: 1px solid rgba(255, 255, 255, 0.3);
+            color: white;
+            padding: 15px 20px;
+            border-radius: 20px;
+            overflow-y: auto;
+            font-family: 'Belisa plumilla manual', sans-serif;
+            font-size: 30px;
+
+            
+
+        }
+        .wheeler{
+            display: flex;
+            justify-content: space-between;
+            width: 1000px;
+            height: 200px;
+            margin: 30px;
+            background: rgba(255, 255, 255, 0.1);
+            backdrop-filter: blur(8px);
+            border: 1px solid rgba(255, 255, 255, 0.3);
+            color: white;
+            padding: 15px 20px;
+            border-radius: 20px;
+            overflow-y: auto;
+            font-family: 'Belisa plumilla manual', sans-serif;
+            font-size: 30px;
+
+            
+
+        }
+        .winona{
+            display: flex;
+            justify-content: space-between;
+            width: 1000px;
+            height: 200px;
+            margin: 30px;
+            background: rgba(255, 255, 255, 0.1);
+            backdrop-filter: blur(8px);
+            border: 1px solid rgba(255, 255, 255, 0.3);
+            color: white;
+            padding: 15px 20px;
+            border-radius: 20px;
+            overflow-y: auto;
+            font-family: 'Belisa plumilla manual', sans-serif;
+            font-size: 30px;
+
+            
+
+        }
+        .wortox{
+            display: flex;
+            justify-content: space-between;
+            width: 1000px;
+            height: 200px;
+            margin: 30px;
+            background: rgba(255, 255, 255, 0.1);
+            backdrop-filter: blur(8px);
+            border: 1px solid rgba(255, 255, 255, 0.3);
+            color: white;
+            padding: 15px 20px;
+            border-radius: 20px;
+            overflow-y: auto;
+            font-family: 'Belisa plumilla manual', sans-serif;
+            font-size: 30px;
+
+            
+
+        }
+        .wurt{
+            display: flex;
+            justify-content: space-between;
+            width: 1000px;
+            height: 200px;
+            margin: 30px;
+            background: rgba(255, 255, 255, 0.1);
+            backdrop-filter: blur(8px);
+            border: 1px solid rgba(255, 255, 255, 0.3);
+            color: white;
+            padding: 15px 20px;
+            border-radius: 20px;
+            overflow-y: auto;
+            font-family: 'Belisa plumilla manual', sans-serif;
+            font-size: 30px;
+
+            
+
+        }
+        .walter{
+            display: flex;
+            justify-content: space-between;
+            width: 1000px;
+            height: 200px;
+            margin: 30px;
+            background: rgba(255, 255, 255, 0.1);
+            backdrop-filter: blur(8px);
+            border: 1px solid rgba(255, 255, 255, 0.3);
+            color: white;
+            padding: 15px 20px;
+            border-radius: 20px;
+            overflow-y: auto;
+            font-family: 'Belisa plumilla manual', sans-serif;
+            font-size: 30px;
+
+            
+
+        }
+        .wanda{
+            display: flex;
+            justify-content: space-between;
+            width: 1000px;
+            height: 200px;
+            margin: 30px;
+            background: rgba(255, 255, 255, 0.1);
+            backdrop-filter: blur(8px);
+            border: 1px solid rgba(255, 255, 255, 0.3);
+            color: white;
+            padding: 15px 20px;
+            border-radius: 20px;
+            overflow-y: auto;
+            font-family: 'Belisa plumilla manual', sans-serif;
+            font-size: 30px;
+
+            
+
+        }
+
+
+}
+}
